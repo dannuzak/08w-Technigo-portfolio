@@ -15,6 +15,60 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif;
+  /*  justify-content: center; */
   color: white;
+  height: 400px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 6%;
+  margin-top: 6%;
+}
+
+.logo {
+  width: 40px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6%;
+  line-height: 1.2;
+  position: relative;
+  top: 15%;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio {
+  font-weight: 100;
+}
+
+.my-position {
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.my-background {
+  font-size: 1.3rem;
+  margin-top: 2%;
+  font-weight: 400;
+}
+.my-picture {
+  width: 110px;
+  border-radius: 50%;
+  border: solid white 3px;
+  align-self: flex-end;
+  position: relative;
+  top: 100px;
+  margin-right: 6%;
 }
