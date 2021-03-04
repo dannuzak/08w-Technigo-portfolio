@@ -15,7 +15,6 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  /*  justify-content: center; */
   color: white;
   height: 400px;
 }
@@ -44,8 +43,6 @@ body {
 .title {
   font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
-  display: flex;
-  flex-direction: row;
 }
 
 .portfolio {
@@ -63,6 +60,7 @@ body {
   margin-top: 2%;
   font-weight: 400;
 }
+
 .my-picture {
   width: 110px;
   border-radius: 50%;
@@ -71,4 +69,49 @@ body {
   position: relative;
   top: 100px;
   margin-right: 6%;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 500px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .header-text {
+    position: relative;
+    top: 7%;
+  }
+
+  .title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+  }
+
+  .portfolio {
+    font-weight: 100;
+  }
+
+  .my-position {
+    font-size: 3.5rem;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+
+  .my-background {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .my-picture {
+    width: 160px;
+    border-radius: 50%;
+    border: solid white 3px;
+    align-self: flex-end;
+    position: relative;
+    top: 40px;
+    margin-right: 6%;
+  }
 }
