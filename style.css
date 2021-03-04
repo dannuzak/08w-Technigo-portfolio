@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  background-image: url(./assets/mobile-640.jpg);
+  background-image: url(./assets/bg-mobile-ipad-640.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -113,5 +113,53 @@ body {
     position: relative;
     top: 40px;
     margin-right: 6%;
+  }
+}
+
+/*** Media queries for Desktop ****/
+
+@media only screen and (min-width: 1024px) {
+  /*Header*/
+
+  .header {
+    /* background-image: url("./assets/background-desktop.jpg"); */
+    background-image: url("./assets/beach-01.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .header-text {
+    position: relative;
+    top: 7%;
+  }
+
+  .title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+  }
+
+  .portfolio {
+    font-weight: 100;
+  }
+
+  .my-position {
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+
+  .my-background {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 0.7;
+  }
+
+  .my-picture {
+    width: 230px;
   }
 }
