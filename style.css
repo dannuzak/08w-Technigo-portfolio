@@ -7,13 +7,43 @@
 
 body {
   background-color: #eceaea;
+  font-family: "Roboto", sans-serif;
+  color: #3a362c;
+}
+
+.filled-title {
+  background-color: #2da6af;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #2da6af;
+  font-weight: 500;
+  align-self: center;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #2da6af;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-top: 25px;
+}
+
+.main-text {
+  margin-top: 15px;
   font-family: "Montserrat", sans-serif;
 }
 
 p {
+  margin-top: 15px;
+}
+
+li {
   color: #3a362c;
-  /* margin: 10px; */
-  margin-top: 10px;
 }
 
 .header {
@@ -56,6 +86,7 @@ p {
 }
 
 .my-position {
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   line-height: 1;
   letter-spacing: 2px;
@@ -101,23 +132,69 @@ p {
   text-align: center; /*added to align title*/
 }
 
-.filled-title {
-  background-color: #2da6af;
-  padding: 5px;
-  color: white;
-  text-align: center;
-}
-
 .magazine {
   width: 100%;
   margin-top: 20px;
 }
 
-.section h3 {
-  color: #2da6af;
-  font-weight: 500;
-  align-self: flex-start;
-  margin-top: 20px;
+.my-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.skills h3 {
+  text-align: center; /* list 1 aligns*/
+}
+
+.skills {
+  margin: 25px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact {
+  width: 100%;
+  margin: 0;
+  height: 300px;
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  color: #eceaea;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info {
+  margin-top: 0;
+  color: #eceaea;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+  color: #eceaea;
+}
+
+.for-more {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.social-media2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 70px;
 }
 
 @media only screen and (min-width: 768px) {
