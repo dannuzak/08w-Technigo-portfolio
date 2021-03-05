@@ -12,7 +12,9 @@ body {
 }
 
 .filled-title {
-  background-color: #2da6af;
+  background-color: #2da6af; /* didn't pass contrast test*/
+  /* background-color: #1d6c72; */
+  /*  background-color: #4c4843; */
   padding: 5px;
   color: white;
   text-align: center;
@@ -148,7 +150,7 @@ li {
 }
 
 .skills {
-  margin: 25px;
+  margin: 10px;
 }
 
 ul {
@@ -158,6 +160,21 @@ ul {
   margin-top: 10px;
 }
 
+.for-more {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.social-media2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 70px;
+}
 .contact {
   width: 100%;
   margin: 0;
@@ -179,22 +196,6 @@ ul {
 .contact h2 {
   margin-bottom: 30px;
   color: #eceaea;
-}
-
-.for-more {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 25px;
-}
-
-.social-media2 {
-  display: flex;
-  flex-direction: row;
-  margin-top: 25px;
-}
-
-.logo {
-  width: 70px;
 }
 
 @media only screen and (min-width: 768px) {
