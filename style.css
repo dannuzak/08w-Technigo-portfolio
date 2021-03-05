@@ -61,7 +61,7 @@ li {
   height: 400px;
 }
 
-.social-media {
+.social-media1 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -70,7 +70,7 @@ li {
 }
 
 .logo {
-  width: 10px;
+  width: 30px;
 }
 
 .header-text {
@@ -125,7 +125,7 @@ li {
 }
 
 .section {
-  margin: 10px; /* before: % */
+  margin: 20px; /* before: % */
   display: flex;
   flex-direction: column;
   align-items: center; /* this aligns the titles"*/
@@ -133,6 +133,24 @@ li {
 
 .summary {
   margin-top: 10%;
+}
+
+.line {
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: #2da6af;
+  margin-bottom: 6px;
+}
+
+.circle {
+  display: inline-block;
+  background-color: #2da6af;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: -10px; /*so there is no margin between the line and the dot*/
+  margin-right: 10px;
 }
 
 .tech {
@@ -173,7 +191,7 @@ ul {
   margin-bottom: 25px;
 }
 
-.social-media2 {
+/* .social-media2 {
   display: flex;
   flex-direction: row;
   margin-top: 25px;
@@ -181,6 +199,43 @@ ul {
 
 .logo {
   width: 70px;
+} */
+
+.social-n1 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.social-n2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-n3 {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: solid #2da6af;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 15px;
+}
+
+.social-n3 img {
+  filter: invert(57%) sepia(66%) saturate(495%) hue-rotate(136deg)
+    brightness(87%) contrast(80%);
+  width: 50%;
+  position: absolute;
+}
+
+.social-n2 p {
+  font-size: 0.8rem;
+  color: #2da6af;
 }
 
 .contact {
