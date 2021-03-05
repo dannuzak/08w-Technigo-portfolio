@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap");
 
+/*** GENERAL STYLING ***/
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -48,6 +50,8 @@ li {
   color: #3a362c;
 }
 
+/*** HEADER ***/
+
 .header {
   background-image: url(./assets/bg-mobile-ipad-640.jpg);
   background-size: cover;
@@ -66,7 +70,7 @@ li {
 }
 
 .logo {
-  width: 40px;
+  width: 10px;
 }
 
 .header-text {
@@ -106,9 +110,11 @@ li {
   border: solid white 3px;
   align-self: flex-end;
   position: relative;
-  top: 100px;
+  top: 70px;
   margin-right: 6%;
 }
+
+/*** MAIN CONTENT ***/
 
 .container {
   display: flex;
@@ -118,7 +124,7 @@ li {
 }
 
 .section {
-  margin: 5%;
+  margin: 10px; /* before: % */
   display: flex;
   flex-direction: column;
   align-items: center; /* this aligns the titles"*/
@@ -199,12 +205,35 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
+  /*** GENERAL (tablet) ***/
+
+  h2 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+  }
+
+  .filled-title {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p,
+  ul {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+
+  /*** HEADER (tablet) ***/
+
   .header {
     height: 500px;
   }
 
   .logo {
-    width: 50px;
+    width: 60px;
   }
 
   .header-text {
@@ -241,13 +270,30 @@ ul {
     top: 40px;
     margin-right: 6%;
   }
+  /*** MAIN ***/
 
   .section {
-    margin: 3%;
+    padding: 20px 80px;
   }
 
   .summary {
     margin-top: 5%;
+  }
+
+  /* .featured-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  } */
+
+  .contact {
+    margin: 0;
+    height: 400px;
+  }
+
+  .logo2 {
+    width: 120px;
+    margin-top: 20px;
   }
 }
 
