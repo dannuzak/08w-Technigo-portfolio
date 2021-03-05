@@ -103,7 +103,7 @@ p {
 
 .filled-title {
   background-color: #2da6af;
-  padding: 5px; /* why it doesnt apply?*/
+  padding: 5px;
   color: white;
   text-align: center;
 }
