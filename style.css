@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap");
-
-/*** GENERAL STYLING ***/
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;400&display=swap");
+ */
+/*** GENERAL STYLING (mobile) ***/
 
 * {
   margin: 0;
@@ -50,7 +50,7 @@ li {
   color: #3a362c;
 }
 
-/*** HEADER ***/
+/*** HEADER (mobile) ***/
 
 .header {
   background-image: url(./assets/bg-mobile-ipad-640.jpg);
@@ -94,6 +94,7 @@ li {
 .my-position {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
+  font-weight: 600;
   line-height: 1;
   letter-spacing: 2px;
 }
@@ -114,7 +115,7 @@ li {
   margin-right: 6%;
 }
 
-/*** MAIN CONTENT ***/
+/*** MAIN CONTENT (mobile) ***/
 
 .container {
   display: flex;
@@ -181,6 +182,7 @@ ul {
 .logo {
   width: 70px;
 }
+
 .contact {
   width: 100%;
   margin: 0;
@@ -204,6 +206,8 @@ ul {
   color: #eceaea;
 }
 
+/*** STYLING FOR TABLET VIEW ***/
+
 @media only screen and (min-width: 768px) {
   /*** GENERAL (tablet) ***/
 
@@ -224,6 +228,14 @@ ul {
   ul {
     font-size: 1.5rem;
     margin-top: 15px;
+  }
+
+  p {
+    align-self: flex-start;
+  }
+
+  .contact p {
+    align-self: center;
   }
 
   /*** HEADER (tablet) ***/
@@ -254,10 +266,11 @@ ul {
     font-size: 3.5rem;
     line-height: 1;
     letter-spacing: 2px;
+    /*  font-weight: 800; Not sure if it is connecting*/
   }
 
   .my-background {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     font-weight: 400;
   }
 
@@ -270,7 +283,7 @@ ul {
     top: 40px;
     margin-right: 6%;
   }
-  /*** MAIN ***/
+  /*** MAIN CONTENT (tablet) ***/
 
   .section {
     padding: 20px 80px;
@@ -297,10 +310,10 @@ ul {
   }
 }
 
-/*** Media queries for Desktop ****/
+/*** STYLING FOR DESKTOP VIEW ****/
 
 @media only screen and (min-width: 1024px) {
-  /*Header*/
+  /*** Header ***/
 
   .header {
     /* background-image: url("./assets/background-desktop.jpg"); */
@@ -342,5 +355,13 @@ ul {
 
   .my-picture {
     width: 230px;
+  }
+
+  .section {
+    padding: 20px 200px;
+  }
+
+  .other-projects p {
+    text-align: start;
   }
 }
