@@ -12,7 +12,8 @@ body {
 
 p {
   color: #3a362c;
-  margin: 10px;
+  /* margin: 10px; */
+  margin-top: 10px;
 }
 
 .header {
@@ -79,10 +80,15 @@ p {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .section {
   margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* this aligns the titles"*/
 }
 
 .summary {
@@ -92,18 +98,26 @@ p {
 .tech {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  text-align: center; /*added to align title*/
 }
+
 .filled-title {
   background-color: #2da6af;
   padding: 5px; /* why it doesnt apply?*/
   color: white;
+  text-align: center;
 }
 
-.section .magazine {
-  width: 300px;
-  margin: 10px;
+.magazine {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.section h3 {
+  color: #2da6af;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px) {
