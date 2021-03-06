@@ -159,11 +159,20 @@ li {
   text-align: center; /*added to align title*/
 }
 
-/* .featured-project {
+.featured-project {
   position: relative;
   text-align: center;
   color: white;
-} */
+}
+
+.project-name {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: #eceaea;
+  font-size: 2rem;
+}
 
 .magazine-site {
   width: 100%;
@@ -171,8 +180,8 @@ li {
 }
 
 .featured-project figure img {
-  -webkit-filter: grayscale(80%);
-  filter: grayscale(80%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
