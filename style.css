@@ -70,7 +70,7 @@ li {
 }
 
 .logo {
-  width: 30px;
+  width: 50px;
 }
 
 .header-text {
@@ -111,7 +111,7 @@ li {
   border: solid white 3px;
   align-self: flex-end;
   position: relative;
-  top: 70px;
+  top: 85px;
   margin-right: 6%;
 }
 
@@ -231,6 +231,8 @@ ul {
     brightness(87%) contrast(80%);
   width: 50%;
   position: absolute;
+  right: 30%; /*added after adding link */
+  top: 25%; /*added after adding link */
 }
 
 .social-n2 p {
