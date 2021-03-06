@@ -159,9 +159,26 @@ li {
   text-align: center; /*added to align title*/
 }
 
-.magazine {
+/* .featured-project {
+  position: relative;
+  text-align: center;
+  color: white;
+} */
+
+.magazine-site {
   width: 100%;
   margin-top: 20px;
+}
+
+.featured-project figure img {
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.featured-project figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .my-skills {
