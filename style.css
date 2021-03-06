@@ -180,15 +180,37 @@ li {
 }
 
 .featured-project figure img {
+  -webkit-filter: brightness(45%);
+  filter: brightness(45%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.featured-project figure:hover img {
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
+}
+
+/* .featured-project figure img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .featured-project figure:hover img {
-  -webkit-filter: grayscale(0);
+  -webkit-filter: grayscale (0);
   filter: grayscale(0);
+} */
+
+/* .featured-project figure img {
+  -webkit-filter: opacity(40%);
+  filter: opacity(40%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
+.featured-project figure:hover img {
+  -webkit-filter: opacity(4);
+  filter: opacity(4);
+} */
 
 .my-skills {
   display: grid;
