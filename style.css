@@ -129,7 +129,7 @@ li {
   background-color: white;
 }
 
-.section:nth-last-child(2) {
+.section:last-child {
   background-color: teal;
 }
 
@@ -161,10 +161,19 @@ li {
   text-align: center;
 }
 
+.social-n1 {
+  padding-top: 0;
+}
+
+.for-more {
+  margin-bottom: 20px;
+}
+
 .featured-project {
   position: relative;
   text-align: center;
   color: white;
+  margin-top: 50px;
 }
 
 .project-name {
