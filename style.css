@@ -399,11 +399,16 @@ ul {
     margin-top: 5%;
   }
 
-  .contact {
-    margin: 0;
-    height: 400px;
+  .feat-project {
+    margin-top: 100px;
   }
 
+  .featured-projects {
+    padding-top: 0;
+  }
+  .project-name {
+    font-size: 3rem;
+  }
   .for-more {
     margin-top: 100px;
   }
@@ -422,6 +427,11 @@ ul {
     font-size: 1rem;
     align-self: center;
   }
+
+  .contact {
+    margin: 0;
+    height: 400px;
+  }
 }
 
 /*** STYLING FOR DESKTOP VIEW ****/
@@ -429,12 +439,8 @@ ul {
 @media only screen and (min-width: 1024px) {
   /*** Header ***/
 
-  .tags-container {
-    margin-bottom: 50px;
-  }
-
   h4 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 
   .header {
@@ -480,11 +486,48 @@ ul {
   }
 
   .section {
-    padding: 100px 300px;
+    padding: 100px 280px;
   }
 
   .social-n1 {
     padding-top: 0;
+  }
+
+  .feat-project {
+    margin-top: 100px;
+  }
+
+  .featured-projects {
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .featured-project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .magazine-site {
+    width: 335px;
+  }
+
+  .project-name {
+    position: absolute;
+    top: 42%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+    color: #eceaea;
+    font-size: 1.5rem;
+  }
+
+  .tags-container {
+    margin-bottom: 50px;
+  }
+
+  .tags {
+    font-size: 1rem;
   }
 
   .other-projects p {
