@@ -12,9 +12,7 @@ body {
 }
 
 .filled-heading {
-  background-color: #2da6af; /* didn't pass contrast test*/
-  /* background-color: #1d6c72; */
-  /*  background-color: #4c4843; */
+  background-color: #2da6af;
   padding: 5px;
   color: white;
   text-align: center;
@@ -121,10 +119,10 @@ li {
 }
 
 .section {
-  padding: 50px 20px 50px 20px; /* before: % */
+  padding: 50px 20px 50px 20px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* this aligns the titles"*/
+  align-items: center;
 }
 
 .section:nth-of-type(even) {
@@ -153,14 +151,14 @@ li {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  margin-left: -10px; /*so there is no margin between the line and the dot*/
+  margin-left: -10px;
   margin-right: 10px;
 }
 
 .tech {
   display: flex;
   flex-direction: column;
-  text-align: center; /*added to align title*/
+  text-align: center;
 }
 
 .featured-project {
@@ -194,28 +192,6 @@ li {
   filter: brightness(1);
 }
 
-/* .featured-project figure img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-.featured-project figure:hover img {
-  -webkit-filter: grayscale (0);
-  filter: grayscale(0);
-} */
-
-/* .featured-project figure img {
-  -webkit-filter: opacity(40%);
-  filter: opacity(40%);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-.featured-project figure:hover img {
-  -webkit-filter: opacity(4);
-  filter: opacity(4);
-} */
-
 .tags-container {
   display: flex;
   flex-direction: row;
@@ -235,7 +211,7 @@ li {
 }
 
 .skills h3 {
-  text-align: center; /* list 1 aligns*/
+  text-align: center;
 }
 
 ul {
@@ -279,8 +255,8 @@ ul {
     brightness(87%) contrast(80%);
   width: 50%;
   position: absolute;
-  right: 25%; /*added after adding link */
-  top: 25%; /*added after adding link */
+  right: 25%;
+  top: 25%;
 }
 
 .social-n2 p {
@@ -371,7 +347,6 @@ ul {
     font-size: 3.5rem;
     line-height: 1;
     letter-spacing: 2px;
-    /*  font-weight: 800; Not sure if it is connecting*/
   }
 
   .my-background {
