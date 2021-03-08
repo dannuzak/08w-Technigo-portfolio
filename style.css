@@ -380,12 +380,8 @@ ul {
   }
 
   .my-picture {
-    width: 160px;
-    border-radius: 50%;
-    border: solid white 3px;
-    align-self: flex-end;
-    position: relative;
-    top: 40px;
+    width: 180px;
+    top: -10px;
     margin-right: 6%;
   }
 
@@ -406,9 +402,11 @@ ul {
   .featured-projects {
     padding-top: 0;
   }
+
   .project-name {
     font-size: 3rem;
   }
+
   .for-more {
     margin-top: 100px;
   }
@@ -483,6 +481,8 @@ ul {
 
   .my-picture {
     width: 230px;
+    top: 50px;
+    margin-right: 6%;
   }
 
   .section {
