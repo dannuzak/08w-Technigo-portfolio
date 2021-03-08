@@ -6,15 +6,13 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.gstatic.com" rel="preconnect">
   <title>My portfolio</title>
 </head>
 <body>
   <section class="header">
     <div class="social-media1">
-      <a href="https://www.linkedin.com/in/danielazacarias/" target="_blank"><img alt="link to Daniela's linkedIn page" class="logo" src="./assets/linkedin-64.png"></a> 
-      <a href="https://github.com/dannuzak" target="_blank"><img alt="link to Daniela's git hub page" class="logo" src="./assets/github-64.png"></a> 
-      <a href="https://github.com/dannuzak" target="_blank"><img alt="link to Daniela's git hub page" class="logo" src="./assets/github-64.png"></a>
+      <a href="https://www.linkedin.com/in/danielazacarias/" target="_blank"><img alt="link to Daniela's linkedIn page" class="logo" src="./assets/linkedin-64.png"></a> <a href="https://github.com/dannuzak" target="_blank"><img alt="link to Daniela's git hub page" class="logo" src="./assets/github-64.png"></a> <a href="https://github.com/dannuzak" target="_blank"><img alt="link to Daniela's git hub page" class="logo" src="./assets/github-64.png"></a>
     </div>
     <div class="header-text">
       <h1 class="title"><span class="portfolio">PORTFOLIO:</span> <span class="my-name">DANIELA ZACARÍAS</span></h1>
@@ -26,61 +24,71 @@
   </section>
   <main class="container">
     <section class="section summary">
-      <p tabindex="0" class="main-text"><span class="line"></span><span class="circle"></span>You have freedom here. The only guide is your heart. You are only limited by your imagination. This is truly an almighty mountain. There are no mistakes. You can fix anything that happens. I thought today we would do a happy little picture.</>
+      <p class="main-text" tabindex="0"><span class="line"></span><span class="circle"></span>You have freedom here. The only guide is your heart. You are only limited by your imagination. This is truly an almighty mountain. There are no mistakes. You can fix anything that happens. I thought today we would do a happy little picture.&lt;/&gt;</p>
     </section>
     <section class="section tech">
-      <h2 class="filled-title">TECH</h2>
-      <p tabindex="0" class="main-text">HTML, CSS, Flexbox, Javascript, ES6, API's, mob-programming, pair-programming, Github</p>
+      <h2 class="filled-heading">TECH</h2>
+      <p class="main-text" tabindex="0">HTML, CSS, Flexbox, Javascript, ES6, API's, mob-programming, pair-programming, Github</p>
     </section>
-
     <section class="section featured-projects">
-      <h2 class="filled-title">FEATURED PROJECTS</h2>  
-      
+      <h2 class="filled-heading">FEATURED PROJECTS</h2>
       <div class="featured-project">
         <a href="https://magazine-site-by-dannuzak.netlify.app/">
-          <figure>
-            <img class="magazine-site" src="assets/img-0.jpg" alt="image of flowers linking to featured project 2">
-          </figure>
-          <div class="project-name">
-            <h4>PROJECT 1</h4>
-          </div>
-        </a>
+        <figure>
+          <img alt="image of flowers linking to featured project 2" class="magazine-site" src="./assets/project-img.jpg">
+        </figure>
+        <div class="project-name">
+          <h4>PROJECT 1</h4>
+        </div></a>
       </div>
-
       <h3>PROJECT 1</h3>
-      <p>Responsive website using HTML, CSS and JavaScript ES6 for booking an appointment.
-      </p>
-
+      <p>Responsive website using HTML, CSS and JavaScript ES6 for booking an appointment.</p>
+      <div class="tags-container">
+        <p class="tags">HTML5</p>
+        <p class="tags">CSS3</p>
+        <p class="tags">JavaScript ES6</p>
+      </div>
       <div class="featured-project">
         <a href="https://magazine-site-by-dannuzak.netlify.app/">
-          <figure>
-            <img class="magazine-site" src="assets/img-0.jpg" alt="image of flowers linking to featured project 2">
-          </figure>
-          <div class="project-name">
-            <h4>PROJECT 2</h4>
-          </div>
-        </a>
+        <figure>
+          <img alt="image of flowers linking to featured project 2" class="magazine-site" src="./assets/project-img.jpg">
+        </figure>
+        <div class="project-name">
+          <h4>PROJECT 2</h4>
+        </div></a>
       </div>
-
       <h3>PROJECT 2</h3>
-      <p>Responsive website using HTML, CSS and JavaScript ES6 for booking an appointment.
-      </p>
-    </section>  
-
+      <p>Responsive website using HTML, CSS and JavaScript ES6 for booking an appointment.</p>
+      <div class="tags-container">
+        <p class="tags">HTML5</p>
+        <p class="tags">CSS3</p>
+        <p class="tags">JavaScript ES6</p>
+      </div>
+    </section>
     <section class="section other-projects">
       <h2>OTHER PROJECTS</h2>
       <h3>WEATHER APP</h3>
       <p>Responsive website using HTML, CSS and Javascript ES6.</p>
+      <div class="tags-container">
+        <p class="tags">HTML5</p>
+        <p class="tags">CSS3</p>
+        <p class="tags">JavaScript ES6</p>
+      </div>
       <h3>WEATHER APP</h3>
       <p>Responsive website using HTML, CSS and Javascript ES6.</p>
+      <div class="tags-container">
+        <p class="tags">HTML5</p>
+        <p class="tags">CSS3</p>
+        <p class="tags">JavaScript ES6</p>
+      </div>
     </section>
     <section class="section my-thoughts">
-      <h2 class="filled-title">MY THOUGHTS</h2>
+      <h2 class="filled-heading">MY THOUGHTS</h2>
       <p>They say everything looks better with odd numbers of things. But sometimes I put even numbers—just to upset the critics. I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people. Just take out whatever you don't want. It'll change your entire perspective.</p>
     </section>
     <section class="section skills">
-      <h2 class="filled-title">SKILLS</h2>
-      <div role="group" class="my-skills">
+      <h2 class="filled-heading">SKILLS</h2>
+      <div class="my-skills" role="group">
         <div class="skills">
           <h3>CODE</h3>
           <ul>
@@ -102,48 +110,33 @@
         </div>
       </div>
     </section>
-    <h2 class="heading">FOR MORE</h2>
+    <h2 class="heading for-more">FOR MORE</h2>
     <section class="section social-n1" role="social">
-      
-  <div class="social-n2">
-      <div class="social-n3">
-        <a href="https://www.linkedin.com/in/danielazacarias/" target="_blank">
-          <img src="./assets/linkedin-logo2.svg" alt="Linkedin logo"/>
-        </a>
+      <div class="social-n2">
+        <div class="social-n3">
+          <a href="https://www.linkedin.com/in/danielazacarias/" target="_blank"><img alt="Linkedin logo" src="./assets/linkedin2.svg"></a>
+        </div>
+        <p>LINKED IN</p>
       </div>
-      <p>LINKED IN</p>
-  </div>
-  <div class="social-n2">
-      <div class="social-n3">
-        <a href="https://stackoverflow.com/users/14120179/dannuzak?tab=profile" target="_blank">
-          <img src="./assets/stack2.svg" alt="Github icon"/>
-        </a>
+      <div class="social-n2">
+        <div class="social-n3">
+          <a href="https://stackoverflow.com/users/14120179/dannuzak?tab=profile" target="_blank"><img alt="Github icon" src="./assets/stack2.svg"></a>
+        </div>
+        <p>STACK OVERFLOW</p>
       </div>
-      <p>STACK OVERFLOW</p>
-  </div>
-  <div class="social-n2">
-      <div class="social-n3">
-        <a href="https://github.com/dannuzak" target="_blank">
-          <img src="./assets/github2.svg" alt="Stack overflow icon"/>
-        </a>
+      <div class="social-n2">
+        <div class="social-n3">
+          <a href="https://github.com/dannuzak" target="_blank"><img alt="Stack overflow icon" src="./assets/github2.svg"></a>
+        </div>
+        <p>GITHUB</p>
       </div>
-      <p>GITHUB</p>
-  </div>
-</section>
-</main>
-    <section class="section contact">
-      <h2>CONTACT</h2>
-      <p class="info">Daniela Zacarías</p>
-      <p class="info">+46 73 480 62 42</p>
-      <p class="info">daniela.zacarias@outlook.com</p>
     </section>
-
-
-    
-
-
-
   </main>
+  <section class="section contact">
+    <h2>CONTACT</h2>
+    <p class="info">Daniela Zacarías</p>
+    <p class="info">+46 73 480 62 42</p>
+    <p class="info">daniela.zacarias@outlook.com</p>
+  </section>
 </body>
 </html>
-
