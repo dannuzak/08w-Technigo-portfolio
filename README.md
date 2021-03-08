@@ -27,3 +27,5 @@ I left till the very end adding a few ARIA labels but I will probably need to ad
 This is still a work in progress and there are improvements to be done. I will keep making improvements and adding my projects continuisly.
 
 # MY LINK
+
+my-portfolio-dannuzak.netlify.app
