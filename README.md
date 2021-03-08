@@ -1,8 +1,8 @@
-Build your portfolio
+# Project: Build your portfolio
 
 This was a very exciting project as we got the assignment to build our portfolio. We put into practice our CSS skills and we got introduced to accesibility (testing, UX design, validation, etc).
 
-What I learned and how I build it.
+# What I learned and how I build it.
 
 - I went mobile first as I find it easier to go from small and stacked sections to wider and more complex displays.
 
@@ -25,3 +25,5 @@ I left till the very end adding a few ARIA labels but I will probably need to ad
 - I tested my page with Voice Over off from Mac and it is also accesible with the keyboard.
 
 This is still a work in progress and there are improvements to be done. I will keep making improvements and adding my projects continuisly.
+
+# MY LINK
