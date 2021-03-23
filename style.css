@@ -16,13 +16,6 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-h2 {
-	font-family: "Montserrat", sans-serif;
-	color: #2da6af;
-	font-weight: 500;
-	align-self: center;
-}
-
 h3 {
 	color: #2da6af;
 	font-weight: 500;
@@ -30,21 +23,29 @@ h3 {
 	margin-top: 25px;
 }
 
-.filled-heading {
+.title-section {
 	background-color: #2da6af;
 	padding: 5px;
 	color: white;
 	align-self: center;
 	width: fit-content;
+	margin-bottom: 40px;
+}
+
+.subtitle-section {
+	font-family: "Montserrat", sans-serif;
+	color: #2da6af;
+	font-weight: 500;
+	align-self: center;
 }
 
 .main-text {
 	font-family: "Montserrat", sans-serif;
 }
 
-p {
+/* p {
 	margin-top: 15px;
-}
+} */
 
 li {
 	color: #3a362c;
@@ -147,10 +148,6 @@ li {
 
 /* Summary section ***/
 
-.summary {
-	margin-top: 10%;
-}
-
 .line {
 	display: inline-block;
 	width: 50px;
@@ -182,23 +179,36 @@ li {
 .featured-container {
 	display: flex;
 	flex-direction: column;
-	max-width: 100%;
 	justify-content: center;
 	align-items: center;
+	/* width: 100%; */
 }
 
-.featured-project-card {
+.figure {
 	position: relative;
 }
 
 .project-name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #eceaea;
+	font-size: 1.7rem;
+}
+
+/* .project-name {
 	position: absolute;
 	top: 30%;
 	left: 50%;
 	transform: translate(-50%, 50%);
 	color: white;
 	font-size: 1.5rem;
-}
+} */
 
 .card-link {
 	text-decoration: none;
@@ -211,7 +221,6 @@ li {
 
 .magazine-site {
 	width: 100%;
-	margin-top: 20px;
 }
 
 .featured-project figure img {
@@ -230,6 +239,7 @@ li {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 .tags {
@@ -257,7 +267,7 @@ li {
 	justify-items: center;
 }
 
-.skills h3 {
+.skills .subtitle-section {
 	text-align: center;
 }
 
@@ -280,6 +290,7 @@ ul {
 
 .for-more {
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 .social-n1 {
@@ -341,7 +352,7 @@ ul {
 	color: #eceaea;
 }
 
-.contact h2 {
+.contact-title {
 	margin-bottom: 30px;
 	color: #eceaea;
 }
@@ -455,7 +466,7 @@ ul {
 	.feat-project {
 		margin-top: 100px;
 	}
-
+	/* 
 	.project-name {
 		position: absolute;
 		top: 20%;
@@ -463,7 +474,7 @@ ul {
 		transform: translate(-50%, 50%);
 		color: white;
 		font-size: 1.5rem;
-	}
+	} */
 
 	.tags {
 		font-size: 1rem;
@@ -595,15 +606,7 @@ ul {
 	}
 
 	.magazine-site {
-		width: 335px;
-	}
-
-	.project-name {
-		position: absolute;
-		top: 70px;
-		left: 170px;
-		transform: translate(-50%, 50%);
-		color: #eceaea;
+		width: 100%;
 	}
 
 	.tags-container {
