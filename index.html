@@ -7,9 +7,10 @@
   <link href="style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.gstatic.com" rel="preconnect">
-  <title>My portfolio</title>
+  <title>Daniela Zacarías - My portfolio</title>
 </head>
 <body>
+
   <section class="header">
     <div class="social-media1">
       <a href="https://www.linkedin.com/in/danielazacarias/" target="_blank"><img alt="link to Daniela's linkedIn page" class="logo" src="./assets/linkedin-64.png"></a> 
@@ -24,52 +25,65 @@
       <h1 class="my-background">+ media & communication</h1>
     </div><img alt="Daniela's picture in black and white" class="my-picture" src="./assets/dan-bnw.jpg">
   </section>
+
+  <!-- Main section -->
   <main class="container">
+    <div class="inner-container">
+
     <section class="section summary">
-      <p class="main-text" tabindex="0"><span class="line"></span><span class="circle"></span>You have freedom here. The only guide is your heart. You are only limited by your imagination. This is truly an almighty mountain. There are no mistakes. You can fix anything that happens. I thought today we would do a happy little picture.</p>
+      <p class="main-text" tabindex="0">
+        <span class="line"></span>
+        <span class="circle"></span>
+        You have freedom here. The only guide is your heart. You are only limited by your imagination. This is truly an almighty mountain. There are no mistakes. You can fix anything that happens. I thought today we would do a happy little picture.
+      </p>
     </section>
     <section class="section tech">
       <h2 class="filled-heading">TECH</h2>
       <p class="main-text" tabindex="0">HTML, CSS, Flexbox, Javascript, ES6, API's, mob-programming, pair-programming, Github</p>
     </section>
-    <h2 class="filled-heading feat-project">FEATURED PROJECTS</h2>
     <section class="section featured-projects">
+      <h2 class="filled-heading feat-project">FEATURED PROJECTS</h2>
       <div class="featured-container">
-        <div class="featured-project">
-          <a href="https://magazine-site-by-dannuzak.netlify.app/">
-          <figure>
-            <img alt="image of flowers linking to featured project 2" class="magazine-site" src="./assets/project-img.jpg">
-          </figure>
-          <div class="project-name">
-            <h4>PROJECT 1</h4>
-          </div></a>
+        <div class="featured-project-card">
+          <a classname="card-link" href="https://magazine-site-by-dannuzak.netlify.app/">
+            <figure>
+              <img alt="image of flowers linking to featured project 2" class="magazine-site" src="./assets/project-img.jpg">
+            </figure>
+            <div class="project-name">
+              <h4>PROJECT 1</h4>
+            </div>
+            <div>
+              <h3>PROJECT 1</h3>
+              <p class=project-description>Responsive website using HTML, CSS and JavaScript ES6 for booking an appointment.</p>
+            </div>
+          </a>  
+          <div class="tags-container">
+            <p class="tags">HTML5</p>
+            <p class="tags">CSS3</p>
+            <p class="tags">JavaScript ES6</p>
+          </div>
         </div>
-        <h3>PROJECT 1</h3>
-        <p>Responsive website using HTML, CSS and JavaScript ES6 for booking an appointment.</p>
-        <div class="tags-container">
-          <p class="tags">HTML5</p>
-          <p class="tags">CSS3</p>
-          <p class="tags">JavaScript ES6</p>
+          
+        <div class="featured-project-card">
+          <a classname="card-link" href="https://magazine-site-by-dannuzak.netlify.app/">
+            <figure>
+              <img alt="image of flowers linking to featured project 2" class="magazine-site" src="./assets/project-img.jpg">
+            </figure>
+            <div class="project-name">
+              <h4>PROJECT 1</h4>
+            </div>
+            <div>
+              <h3>PROJECT 1</h3>
+              <p class=project-description>Responsive website using HTML, CSS and JavaScript ES6 for booking an appointment.</p>
+            </div>
+          </a>  
+          <div class="tags-container">
+            <p class="tags">HTML5</p>
+            <p class="tags">CSS3</p>
+            <p class="tags">JavaScript ES6</p>
+          </div>   
         </div>
-      </div>
-      <div class="featured-container">
-        <div class="featured-project">
-          <a href="https://magazine-site-by-dannuzak.netlify.app/">
-          <figure>
-            <img alt="image of flowers linking to featured project 2" class="magazine-site" src="./assets/project-img.jpg">
-          </figure>
-          <div class="project-name">
-            <h4>PROJECT 2</h4>
-          </div></a>
-        </div>
-        <h3>PROJECT 2</h3>
-        <p>Responsive website using HTML, CSS and JavaScript ES6 for booking an appointment.</p>
-        <div class="tags-container">
-          <p class="tags">HTML5</p>
-          <p class="tags">CSS3</p>
-          <p class="tags">JavaScript ES6</p>
-        </div>
-      </div>
+      </div>  
     </section>
     <section class="section other-projects">
       <h2>OTHER PROJECTS</h2>
@@ -141,9 +155,11 @@
   <section class="section contact">
     <h2>CONTACT</h2>
     <p class="info">Daniela Zacarías</p>
-    <p class="info">+46 73 480 62 42</p>
-    <p class="info">daniela.zacarias@outlook.com</p>
+    <!-- <p class="info">+46 73 480 62 42</p> -->
+    <p class="info">my.email@outlook.com</p>
   </section>
+
+</div>
 </main>
 </body>
 </html>
