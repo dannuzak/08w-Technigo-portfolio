@@ -236,6 +236,17 @@ li {
 	margin: 10px 10px 0 0;
 	padding: 7px;
 	background-color: #c7e2e6;
+	color: #3a362c;
+}
+
+/*Other projects section*/
+.card-text-underlined {
+	color: #3a362c;
+	text-decoration: underline;
+}
+
+.arrow {
+	color: teal;
 }
 
 /* My skills section */
