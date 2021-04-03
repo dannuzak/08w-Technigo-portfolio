@@ -260,6 +260,54 @@ body {
 	color: teal;
 }
 
+/* My thoughts mobile*/
+
+.my-thoughts-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* width: 100%; */
+}
+
+.article-date {
+	color: #2da6af;
+	font-weight: 500;
+	align-self: flex-start;
+	margin-top: 20px;
+}
+
+.article-title {
+	font-size: 1.2rem;
+	color: #3a362c;
+	font-weight: 500;
+}
+
+.article-intro {
+	color: #3a362c;
+	margin: 10px 0 40px 0;
+}
+
+.article-img {
+	width: 100%;
+}
+
+/*Other thoughts */
+
+.other-projects-container {
+	width: 100%;
+}
+
+.card-text-underlined {
+	color: #3a362c;
+	text-decoration: underline;
+}
+
+.arrow {
+	color: teal;
+	text-decoration: underline;
+}
+
 /* My skills section */
 
 .skills-container {
@@ -446,23 +494,28 @@ body {
 		margin-top: 5%;
 	}
 
-	.featured-projects {
-		padding-top: 0;
-	}
-
-	.featured-container {
+	/* .featured-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+	} */
+
+	.featured-container,
+	.my-thoughts-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 30px;
+		width: 100%;
 	}
 
-	.featured-project-card {
+	/* .featured-project-card {
 		width: 45%;
 	}
 
 	.feat-project {
 		margin-top: 100px;
-	}
+	} */
+
 	/* 
 	.project-name {
 		position: absolute;
@@ -475,6 +528,15 @@ body {
 
 	.tags {
 		font-size: 1rem;
+	}
+
+	.article-date {
+		font-size: 1.8rem;
+		font-weight: normal;
+	}
+
+	.article-title {
+		font-size: 1.7rem;
 	}
 
 	.for-more {
@@ -578,7 +640,8 @@ body {
 	}
 
 	.section {
-		padding: 100px 300px;
+		padding: 100px 200px; /* con 300 las imagenes 
+		comienzan muy chiquitas */
 	}
 
 	/* .featured-container {
@@ -588,10 +651,11 @@ body {
 		justify-content: center;
 	} */
 
-	.featured-container {
+	.featured-container,
+	.my-thoughts-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 30px;
+		grid-column-gap: 40px;
 		width: 100%;
 	}
 
@@ -637,3 +701,10 @@ body {
 		font-size: 2.5rem;
 	}
 }
+
+/* the images start too small 
+@media only screen and (min-width: 1400px) {
+	.section {
+		padding: 100px 400px;
+	}
+} */
