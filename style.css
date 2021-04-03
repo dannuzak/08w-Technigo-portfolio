@@ -294,12 +294,16 @@ body {
 
 /*Other thoughts */
 
-.other-projects-container {
+.more-thoughts-container {
 	width: 100%;
 }
 
-.card-text-underlined {
-	color: #3a362c;
+.card-more-thoughts {
+	margin: 10px 0 30px 0;
+}
+
+.underline {
+	/*this can be reused*/
 	text-decoration: underline;
 }
 
