@@ -321,16 +321,18 @@ body {
 }
 
 .skills-subtitle {
+	margin-top: 10px;
 	text-align: center;
 	color: #2da6af;
+	font-size: 2rem;
 }
 
 .skills-list {
 	list-style-type: none;
 	padding: 0;
 	text-align: center;
-	margin-top: 10px;
 	text-decoration: none;
+	margin-top: 0;
 }
 
 /* For more section */
@@ -541,6 +543,11 @@ body {
 
 	.article-title {
 		font-size: 1.7rem;
+	}
+
+	.skills-subtitle {
+		font-size: 1.8rem;
+		margin-top: 20px;
 	}
 
 	.for-more {
