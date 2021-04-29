@@ -1,5 +1,5 @@
 /**
- * GENERAL STYLING (mobile) **
+ * GENERAL STYLING (mobile) *
  *
  * @format
  */
@@ -35,7 +35,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	margin-right: 6%;
+	position: relative;
+	margin-right: 10%;
 	margin-top: 6%;
 }
 
@@ -46,7 +47,7 @@ body {
 .header-text {
 	display: flex;
 	flex-direction: column;
-	margin-left: 6%;
+	margin-left: 10%;
 	line-height: 1.2;
 	position: relative;
 	top: 15%;
@@ -88,9 +89,18 @@ body {
 /*** MAIN CONTENT (mobile) ***/
 
 .width-container {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 20px 50px 20px;
+}
+
+/* .width-container {
 	width: 320px;
 	margin: 0 auto;
-}
+} */
 
 .container {
 	margin: 0;
@@ -99,7 +109,6 @@ body {
 }
 
 .section {
-	padding: 50px 20px 50px 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -409,6 +418,7 @@ body {
 
 	.width-container {
 		width: 768px;
+		padding: 100px 80px;
 	}
 
 	.title-section {
@@ -477,7 +487,6 @@ body {
 	.my-picture {
 		width: 180px;
 		top: -10px;
-		margin-right: 6%;
 	}
 
 	/*** MAIN CONTENT (tablet) ***/
@@ -489,10 +498,6 @@ body {
 	p,
 	ul {
 		font-size: 1.6rem;
-	}
-
-	.section {
-		padding: 100px 80px;
 	}
 
 	.summary {
@@ -555,6 +560,7 @@ body {
 @media only screen and (min-width: 1024px) {
 	.width-container {
 		width: 1024px;
+		padding: 150px 0;
 	}
 
 	.title-section {
@@ -572,19 +578,20 @@ body {
 		background-size: cover;
 		width: 100%;
 		height: 600px;
+		padding: 100px 0;
 	}
 
 	.social-media1 {
-		margin-right: 10%;
+		right: 4%;
+		bottom: 100px;
 	}
 	.logo {
-		width: 80px;
+		width: 100px;
 	}
 
 	.header-text {
 		position: relative;
-		top: 7%;
-		margin-left: 300px;
+		top: -24%;
 	}
 
 	.title {
@@ -609,9 +616,9 @@ body {
 	}
 
 	.my-picture {
-		width: 230px;
-		top: 50px;
-		margin-right: 10%;
+		width: 265px;
+		top: -150px;
+		right: 10%;
 	}
 
 	/*** MAIN SECTION (DESKTOP)***/
@@ -623,16 +630,11 @@ body {
 		align-items: center;
 	} */
 
-	.container {
+	/* .container {
 		margin: 0;
 		display: grid;
 		grid-template-columns: 1fr;
-	}
-
-	.section {
-		padding: 100px 200px; /* con 300 las imagenes 
-		comienzan muy chiquitas */
-	}
+	} */
 
 	/* .featured-container {
 		padding-top: 0;
