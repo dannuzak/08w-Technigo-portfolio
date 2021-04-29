@@ -16,36 +16,9 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-.title-section {
-	background-color: #2da6af;
-	padding: 5px;
-	color: white;
-	align-self: center;
-	width: fit-content;
-	margin-bottom: 40px;
-}
-
-.subtitle-section {
-	font-family: "Montserrat", sans-serif;
-	color: #2da6af;
-	font-weight: 500;
-	align-self: center;
-}
-
-.card-title {
-	color: #2da6af;
-	font-weight: 500;
-	align-self: flex-start;
-	margin-top: 25px;
-}
-
 .main-text {
 	font-family: "Montserrat", sans-serif;
 }
-
-/* p {
-	margin-top: 15px;
-} */
 
 /*** HEADER (mobile) ***/
 
@@ -109,17 +82,15 @@ body {
 	align-self: flex-end;
 	position: relative;
 	top: 85px;
-	margin-right: 6%;
+	right: 10%;
 }
 
 /*** MAIN CONTENT (mobile) ***/
 
-/* .container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-} */
+.width-container {
+	width: 320px;
+	margin: 0 auto;
+}
 
 .container {
 	margin: 0;
@@ -140,6 +111,31 @@ body {
 
 .section:last-child {
 	background-color: teal;
+}
+
+/* Headings */
+
+.title-section {
+	background-color: #2da6af;
+	padding: 5px;
+	color: white;
+	/* align-content: center; */
+	width: fit-content;
+	margin-bottom: 40px;
+}
+
+.subtitle-section {
+	font-family: "Montserrat", sans-serif;
+	color: #2da6af;
+	font-weight: 500;
+	align-self: center;
+}
+
+.card-title {
+	color: #2da6af;
+	font-weight: 500;
+	align-self: flex-start;
+	margin-top: 25px;
 }
 
 /* Summary section ***/
@@ -336,11 +332,6 @@ body {
 
 /* For more section */
 
-/* .for-more{
-	margin: 40px 0px 20px 0px;
-	text-align: center;
-} */
-
 .for-more .subtitle-section {
 	margin-bottom: 20px;
 }
@@ -415,6 +406,10 @@ body {
 
 @media only screen and (min-width: 768px) {
 	/*** GENERAL (tablet) ***/
+
+	.width-container {
+		width: 768px;
+	}
 
 	.title-section {
 		font-size: 2.5rem;
@@ -504,12 +499,6 @@ body {
 		margin-top: 5%;
 	}
 
-	/* .featured-container {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-	} */
-
 	.featured-container,
 	.my-thoughts-container {
 		display: grid;
@@ -517,24 +506,6 @@ body {
 		grid-column-gap: 30px;
 		width: 100%;
 	}
-
-	/* .featured-project-card {
-		width: 45%;
-	}
-
-	.feat-project {
-		margin-top: 100px;
-	} */
-
-	/* 
-	.project-name {
-		position: absolute;
-		top: 20%;
-		left: 50%;
-		transform: translate(-50%, 50%);
-		color: white;
-		font-size: 1.5rem;
-	} */
 
 	.tags {
 		font-size: 1rem;
@@ -582,6 +553,10 @@ body {
 /*** STYLING FOR DESKTOP VIEW ****/
 
 @media only screen and (min-width: 1024px) {
+	.width-container {
+		width: 1024px;
+	}
+
 	.title-section {
 		font-size: 2.7rem;
 	}
