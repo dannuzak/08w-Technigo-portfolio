@@ -221,10 +221,10 @@ body {
 	transition: 0.3s ease-in-out;
 }
 
-.featured-project-card {
+/* .featured-project-card .figure:hover img {
 	-webkit-filter: brightness(1);
 	filter: brightness(1);
-}
+} */
 
 .tags-container {
 	display: flex;
