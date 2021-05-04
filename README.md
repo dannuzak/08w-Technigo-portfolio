@@ -28,4 +28,4 @@ This is still a work in progress and there are improvements to be done. I will k
 
 # MY LINK
 
-my-portfolio-dannuzak.netlify.app
+https://my-portfolio-dannuzak.netlify.app/
