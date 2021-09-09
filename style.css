@@ -23,13 +23,14 @@ body {
 
 /*** HEADER (mobile) ***/
 
-.header {
+.hero {
 	background-image: url(./assets/bg-mobile-ipad-640.jpg);
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	color: white;
 	height: 400px;
+	width: 100%;
 }
 
 .social-media1 {
@@ -42,10 +43,10 @@ body {
 }
 
 .logo {
-	width: 50px;
+	width: 35px;
 }
 
-.header-text {
+.hero-text {
 	display: flex;
 	flex-direction: column;
 	margin-left: 10%;
@@ -446,7 +447,7 @@ body {
 
 	/*** HEADER (tablet) ***/
 
-	.header {
+	.hero {
 		height: 500px;
 	}
 
@@ -454,7 +455,7 @@ body {
 		width: 60px;
 	}
 
-	.header-text {
+	.hero-text {
 		position: relative;
 		top: 7%;
 	}
@@ -570,7 +571,7 @@ body {
 
 	/*** Header ***/
 
-	.header {
+	.hero {
 		background-image: url("./assets/bg-desktop.jpg");
 		background-size: cover;
 		width: 100%;
@@ -583,10 +584,10 @@ body {
 		bottom: 100px;
 	}
 	.logo {
-		width: 100px;
+		width: 60px;
 	}
 
-	.header-text {
+	.hero-text {
 		position: relative;
 		top: -24%;
 	}
