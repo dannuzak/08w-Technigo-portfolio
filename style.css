@@ -79,8 +79,8 @@ body {
 	margin-left: 10%;
 	line-height: 1.2;
 	position: relative;
-	top: 15%;
-	max-width: 350px; /* new */
+	top: 50px;
+	max-width: 310px; /* new */
 }
 
 .title {
@@ -89,7 +89,7 @@ body {
 }
 
 .portfolio {
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .my-position {
@@ -97,7 +97,7 @@ body {
 	font-size: 2rem;
 	font-weight: 600;
 	line-height: 1;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .my-background {
@@ -418,10 +418,6 @@ body {
 		font-size: 1.3rem;
 	}
 
-	.portfolio {
-		font-weight: 100;
-	}
-
 	.my-position {
 		font-size: 3.5rem;
 		line-height: 1;
@@ -524,16 +520,12 @@ body {
 
 	.hero-text {
 		position: relative;
-		top: -24%;
+		top: -25px;
 	}
 
 	.title {
 		font-family: "Roboto", sans-serif;
 		font-size: 1.3rem;
-	}
-
-	.portfolio {
-		font-weight: 100;
 	}
 
 	.my-position {
@@ -544,8 +536,6 @@ body {
 
 	.my-background {
 		font-size: 1.8rem;
-		font-weight: 400;
-		line-height: 0.7;
 	}
 
 	.my-picture {
