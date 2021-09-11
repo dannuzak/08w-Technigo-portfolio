@@ -39,7 +39,8 @@ body {
 	justify-content: flex-end;
 	position: relative;
 	margin-right: 10%;
-	margin-top: 6%;
+	/* margin-top: 6%; before */
+	margin-top: 30px;
 }
 
 .logo {
@@ -54,6 +55,7 @@ body {
 	line-height: 1.2;
 	position: relative;
 	top: 15%;
+	max-width: 350px; /* new */
 }
 
 .title {
@@ -90,6 +92,12 @@ body {
 }
 
 /*** MAIN CONTENT (mobile) ***/
+/* 
+.container {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 1fr;
+} */
 
 .width-container {
 	width: 100%;
@@ -98,12 +106,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	padding: 50px 20px;
-}
-
-.container {
-	margin: 0;
-	display: grid;
-	grid-template-columns: 1fr;
 }
 
 .section {
@@ -416,7 +418,7 @@ body {
 
 	.width-container {
 		width: 768px;
-		padding: 100px 10px;
+		/* padding: 100px 10px; */
 	}
 
 	.title-section {
@@ -491,7 +493,7 @@ body {
 	/*** MAIN CONTENT (tablet) ***/
 
 	.main-text {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 
 	p,
@@ -618,9 +620,11 @@ body {
 	}
 
 	.my-picture {
-		width: 265px;
-		top: -150px;
-		right: 10%;
+		width: 200px;
+		top: 30px;
+		/* top: -25px; */
+		/* top: -150px;
+		right: 10%; */
 	}
 
 	/*** MAIN SECTION (DESKTOP)***/
