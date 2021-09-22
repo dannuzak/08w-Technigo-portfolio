@@ -16,13 +16,6 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-.main-text {
-	font-family: "Montserrat", sans-serif;
-	margin-bottom: 5px;
-}
-
-/* Headings */
-
 .title-section {
 	background-color: #2da6af;
 	padding: 5px;
@@ -43,6 +36,11 @@ body {
 	font-weight: 500;
 	align-self: flex-start;
 	margin-top: 25px;
+}
+
+.main-text {
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 5px;
 }
 
 /*** GENERAL STYLING FOR MOBILE VIEW **
@@ -223,9 +221,30 @@ body {
 	filter: brightness(0.5);
 }
 
+/* .tags-container {
+	height: 100px;
+} */
+
+/* .tags-container p {
+	height: 150px;
+	display: inline;
+	width: fit-content;
+	margin: 10px 10px 0 0;
+	padding: 7px;
+	background-color: #c7e2e6;
+	color: #3a362c;
+	font-size: 14px;
+}
+
+.tags {
+	margin: 10px;
+} */
+
 .tags-container {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 	width: 100%;
 	margin-bottom: 20px;
 }
@@ -235,6 +254,7 @@ body {
 	padding: 7px;
 	background-color: #c7e2e6;
 	color: #3a362c;
+	font-size: 14px;
 }
 
 /*Other projects section*/
@@ -430,7 +450,6 @@ body {
 	}
 
 	.my-picture {
-		/* needs to be fixed */
 		width: 170px;
 		top: 50px;
 	}
