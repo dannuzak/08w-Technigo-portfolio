@@ -18,22 +18,6 @@ body {
 	line-height: 32px;
 }
 
-/* .title-section {
-	background-color: #2da6af;
-	padding: 5px;
-	color: white;
-	width: fit-content;
-	margin-bottom: 40px;
-} */
-
-/* .title-section {
-	background-color: #2da6af;
-	padding: 5px;
-	color: white;
-	width: fit-content;
-	margin-bottom: 40px;
-} */
-
 .title-section {
 	font-family: "Inter", sans-serif;
 	color: #2da6af;
@@ -104,13 +88,12 @@ body {
 	font-family: "Inter", sans-serif;
 	font-size: 2rem;
 	font-weight: 600;
-	line-height: 1;
 	letter-spacing: 1px;
 }
 
 .my-background {
 	font-size: 1.3rem;
-	margin-top: 2%;
+	/* 	margin-top: 1%; */
 	font-weight: 400;
 }
 
@@ -132,7 +115,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 50px 20px;
+	padding: 80px 20px;
 }
 
 .section {
@@ -497,7 +480,9 @@ body {
 
 	.article-date {
 		font-size: 1.8rem;
-		font-weight: normal;
+		font-weight: 500;
+		margin-bottom: 14px;
+
 	}
 
 	.article-title {
@@ -560,7 +545,7 @@ body {
 	}
 
 	.my-position {
-		font-size: 4rem;
+		font-size: 5rem;
 		line-height: 1;
 		letter-spacing: 2px;
 	}
@@ -582,6 +567,7 @@ body {
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 40px;
 		width: 100%;
+		margin-top: 18px;
 	}
 
 	.project-card {
@@ -603,7 +589,7 @@ body {
 	}
 
 	.skills-subtitle {
-		font-size: 2.5rem;
+		font-size: 2rem;
 		font-weight: 500;
 	}
 
