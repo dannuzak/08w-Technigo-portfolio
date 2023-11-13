@@ -458,9 +458,9 @@ body {
 		font-size: 1.6rem;
 	}
 
-	.summary {
+	/* .summary {
 		margin-top: 5%;
-	}
+	} */
 
 	.projects-container,
 	.my-thoughts-container {
@@ -556,7 +556,7 @@ body {
 
 	.my-picture {
 		width: 200px;
-		top: 30px;
+		top: 105px;
 	}
 
 	/*** MAIN SECTION (DESKTOP)***/
